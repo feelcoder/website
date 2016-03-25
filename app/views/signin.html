@@ -1,0 +1,50 @@
+
+        <link rel="stylesheet" type="text/css" href="sitco2/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="sitco2/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="sitco2/css/animate-custom.css" />
+            <section>				
+                    <div id="wrapper" class="  wow wow-fadeInDown">
+                        <div id="login" class="animate form ">
+                            <form  name = "signinForm" action="mysuperscript.php" autocomplete="on"> 
+                                 <p class="change_link">
+									Not a member yet ?
+									<a ui-sref="signup" class="to_register">Join us</a>
+								</p>
+                                    </div>
+                            <div class="row">
+                                <h1>Log in</h1> 
+                                </div>
+                            <div class="row">
+                                <p> 
+                                    <label for="username" class="uname" data-icon="u" > Your email or username </label>
+                                    <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com" ng-model ="user.username"/>
+                                    <span ng-show="signinForm.username.$error.$required && singninForm.username.$dirty">Enter your username or password</span>
+                                </p>
+                                </div>
+                            <div class="row">
+                                <p> 
+                                    <label for="password" class="youpasswd" data-icon="p"> Your password </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" ng-model="user.password"/>
+                                    <span ng-show="signinForm.password.$error.$required && singninForm.password.$dirty">Enter your password</span>
+                                </p>
+                                </div>
+                                <p class="keeplogin"> 
+									<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+									<label for="loginkeeping">Keep me logged in</label>
+								</p>
+                                 <a href="#"> 
+				                     You forgot your password?
+								</a>
+                                <p class="login button">
+                                <button class="btn btn-primary" ng-disabled="signinForm.$invalid"> 
+                                    login
+								</button>
+                                    </p>
+                            </form>
+                        </div>
+</div>
+                    </div>
+            </section>
+            </div>
+        
+  

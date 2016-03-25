@@ -1,0 +1,31 @@
+[
+    {
+        "backgrnd" : "url(sitco2/images/slider/bg1.jpg)",
+        "item":"item active",
+        "breifing1":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "breifing2":"Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...",
+        "href":"#",
+        "image": "sitco/images/slider/img1.png"
+        
+    },
+     {
+        "backgrnd" : "url(sitco2/images/slider/bg2.jpg)",
+        "item":"item",
+        "breifing1":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "breifing2":"Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...",
+        "href":"#",
+        "image": "sitco2/images/slider/img2.png"
+        
+    },
+     {
+        "backgrnd" : "url(sitco2/images/slider/bg3.jpg)",
+        "item":"item active",
+        "breifing1":"Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "breifing2":"Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...",
+        "href":"#",
+        "image": "sitco2/images/slider/img3.png"
+        
+    }
+    
+    
+]

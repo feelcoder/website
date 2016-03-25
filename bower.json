@@ -1,0 +1,50 @@
+{
+  "name": "sitco",
+  "version": "1.0.0",
+  "appPath": "src/main/app",
+  "authors": [
+    "feelcoder <lea.egoko@yahoo.fr>"
+  ],
+  "description": "A business website for SITCO company",
+  "main": "",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "website",
+    "technology",
+    "business",
+    "electronic",
+    "elctronic",
+    "devices",
+    "electricity",
+    "sitco"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-translate": "~2.8.1",
+    "angular-ui-router": "~0.2.15",
+    "angular": "angularjs#~1.4.8",
+    "jquery": "~2.1.4",
+    "wow": "~1.1.2",
+    "json3": "~3.3.2",
+    "bootstrap": "~3.3.6",
+    "modernizr": "~3.2.0",
+    "angular-translate-loader-url": "~2.8.1",
+    "angular-translate-loader-static-files": "~2.8.1",
+    "angular-i18n": "~1.4.8",
+    "angular-bootstrap": "~0.14.3",
+    "angular-dynamic-locale": "~0.1.29",
+    "angular-gettext": "~2.1.2"
+  }
+}

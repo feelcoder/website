@@ -1,0 +1,50 @@
+
+<section id="about-us">
+     <div class="section-header center">
+        <h2 class="section-title text-center wow fadeInDown">About Us    
+        </h2>
+    
+        <p class=" wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor         incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim
+       </p>
+     </div>
+</section><!--/about-us-->
+
+<section id="content" class="aboutUs-item">
+     <div class="container">
+         <div class="row">
+             
+                <div class="col-xs-12 col-sm-7">
+                   <div ng-include='"/sitco2/app/views/ourSkills.html"'></div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-5">
+                   <div ng-include='"/sitco2/app/views/whoWeAre.html"'></div>
+                </div>
+        </div>
+     </div><!--/.container-->
+</section><!--/#content-->
+
+ <section id="work-process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Our Process</h2>
+                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+
+            <div class="row text-center">
+                <div ng-repeat="process in processes">
+                    <div class="col-md-2 col-md-4 col-xs-6">
+                        <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="{{process.delay}}">
+                            <div class="icon-circle">
+                                <span>{{process.number}}</span>
+                                <i class="{{processs.icon}}"></i>
+                            </div>
+                            <h3>{{process.title}}</h3>
+                        </div>
+                    </div>
+                </div>    
+           </div>
+       </div>
+</section><!--/#work-process-->
+
+<!--    <script src="sitco/js/main.js"></script>-->

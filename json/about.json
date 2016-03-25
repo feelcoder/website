@@ -1,0 +1,39 @@
+[
+  {
+    "delay" : "0ms",
+    "number" : 1,
+    "icon": "fa fa-coffee fa-2x",
+    "title": "MEET"  
+  },
+  {
+    "delay" : "100ms",
+    "number" : 2,
+    "icon": "fa fa-bullborn fa-2x",
+    "title" : "PLAN"  
+  },
+  {
+    "delay" : "200ms",
+    "number" : 3,
+    "icon": "fa fa-image fa-2x",
+    "title" : "DESIGN"  
+  },
+  {
+    "delay" : "300ms",
+    "number" : 4,
+    "icon": "fa fa-heart fa-2x",
+    "title" : "DEVELOP"  
+  },
+  {
+    "delay" : "400ms",
+    "number" : 5,
+    "icon": "fa fa-shopping fa-2x",
+    "title" : "TESTING"  
+  },
+  {
+    "delay" : "500ms",
+    "number" : 6,
+    "icon": "fa fa-space-shuttle fa-2x",
+    "title" : "LAUNCH"  
+  }    
+    
+]

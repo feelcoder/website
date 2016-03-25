@@ -1,0 +1,36 @@
+[{
+        "title": "Our Philosophy",
+        "href": "#collapseOne1",
+        "id": "collapseOne1",
+        "image": "sitco2/images/accordion1.png",
+        "header": "Adipisicing elit",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+         "class":"in"
+
+    }, {
+        "title": "What we do",
+        "href": "#collapseTwo1",
+        "id": "collapseTwo1",
+        "image": "sitco2/images/accordion1.png ",
+        "header": "d",
+        "description": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.",
+        "class":""
+    }, {
+        "title": "Our Departments",
+        "href": "#collapseThree1",
+        "id": "collapseThree1",
+        "image": "sitco2/images/accordion1.png ",
+        "header": " ff",
+        "description": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.",
+        "class":""
+    }, {
+        "title": "Recruiting",
+        "href": "#collapseFour1",
+        "id": "collapseFour1",
+        "image": " sitco2/images/accordion1.png",
+        "header": "ff",
+        "description": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.",
+        "class":""
+    }
+
+]

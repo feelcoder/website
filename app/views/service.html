@@ -1,0 +1,47 @@
+    <section id="services" class="service-item">
+	   <div class="container">
+            <div class="section-header center wow fadeInDown">
+                <h2 class="section-title">Our Service</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <div class="row">
+
+              <div ng-repeat= "service in services track by $index">
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="{{service.image}}">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading service" ng-bind="service.title"></h3>
+                            <p class="service" ng-bind="service.description"></p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+             </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#services-->
+
+    <section id="partner">
+        <div class="container">
+            <div class="center wow fadeInDown">
+                <h2>Our Partners</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>    
+
+            <div class="partners">
+                <ul>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="sitco2/images/partners/partner1.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="sitco2/images/partners/partner2.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="sitco2/images/partners/partner3.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="sitco2/images/partners/partner4.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="sitco2/images/partners/partner5.png"></a></li>
+                </ul>
+            </div>        
+        </div><!--/.container-->
+    </section><!--/#partner-->
+  </footer><!--/#footer-->
+
+<script src="sitco/js/main.js"></script>
+

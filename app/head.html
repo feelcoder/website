@@ -1,0 +1,58 @@
+ <header id="header" class="navbar">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-4">
+                    </div>
+                    <div class="col-sm-6 col-xs-8">
+                       <div class="social">
+                        
+                            <div class="search">
+                                <form role="form">
+                             <a ui-sref="signin" class=" btn btn-danger active" ><i class="fa fa-sign-in "></i> Sign in</a>
+                                    
+                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                    <i class="fa fa-search icons"></i>
+                                </div>
+                           </span>
+                       </div>
+                    </div>
+                </div>
+            </div><!--/.container-->
+        </div><!--/.top-bar-->
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" ui-sref="Home"><img src="" alt="Sitco logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li ><a ui-sref="Home" ng-class="{activeSmall:part == 'home'}" ><i class="fa fa-home icons"></i> Home</a></li>
+                        <li ><a ui-sref="About" ng-class="{activeSmall:part == 'about'}" ><i class="fa fa-group icons "></i> About Us</a></li>
+                        <li ><a ui-sref="Service"  ng-class="{activeSmall:part == 'service'}"><i class="fa fa-tasks icons"></i> Services</a></li>
+                        <li><a ui-sref="Portfolio" ng-class="{activeSmall:part == 'portfolio'}"><i class="fa fa-book icons"></i> Portfolio</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog-item.html">Blog Single</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="404.html">404</a></li>
+                                <li><a href="shortcodes.html">Shortcodes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html"><i class="fa fa-archive icons"></i> Blog</a></li> 
+                        <li class="active"><a ui-sref="Contact"><i class="fa fa-envelope icons"></i> Contact</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+		
+    </header><!--/header-->

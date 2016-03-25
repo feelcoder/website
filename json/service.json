@@ -1,0 +1,35 @@
+[
+    {
+       "image" :"sitco2/images/services/services1.png ",
+        "title" :"Electricity",
+        "description" :"Lorem ipsum dolor sit ame consectetur adipisicing elit" 
+    },
+    {
+       "image" :"sitco2/images/services/services2.png ",
+        "title" :" Electricity",
+        "description" :"Lorem ipsum dolor sit ame consectetur adipisicing elit" 
+    },
+    {
+       "image" :"sitco2/images/services/services3.png ",
+        "title" : "Electricity",
+        "description" :"Lorem ipsum dolor sit ame consectetur adipisicing elit" 
+    },
+    
+    {
+       "image" :"sitco2/images/services/services4.png ",
+        "title" :" Electricity",
+        "description" :"Lorem ipsum dolor sit ame consectetur adipisicing elit" 
+    },
+    {
+       "image" :"sitco2/images/services/services5.png ",
+        "title" :" Electricity",
+        "description" :"Lorem ipsum dolor sit ame consectetur adipisicing elit" 
+    },
+    {
+       "image" :"sitco2/images/services/services6.png ",
+        "title" :" Electricity",
+        "description" :"Lorem ipsum dolor sit ame consectetur adipisicing elit" 
+    }
+    
+
+]
